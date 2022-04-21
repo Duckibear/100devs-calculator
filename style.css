@@ -1,0 +1,77 @@
+html {
+     font-size: medium;
+     font-family: 'Noto Sans', sans-serif;
+     box-sizing: border-box; 
+}
+
+*, *::before, *::after {
+     margin: 0;
+     padding: 0;
+     box-sizing: inherit;
+   }
+
+h2 {
+     padding: 200px;
+     height: 425px;
+     width: 100%;
+     margin: auto;
+     position: absolute;
+}
+
+#calculator {
+     background-color: black;
+     border: 1px solid black;
+     border-radius: 13px;
+     position: absolute;
+     top: 25%;
+     left: 25%;
+     width: 350px;
+}
+
+.calcScreen {
+     width: 85%;
+     font-size: 45px;
+     text-align: right;
+     padding-left: 10px;
+     padding-right: 20px;
+     margin: 25px 0 10px 10px;
+     background-color: white;
+     border: 1px solid black;
+}
+
+.allClear {
+     height: 35px;
+     width: 30px;
+     margin: 2px;
+     border-radius: 40%;
+     background-color: white;
+     border: 1px solid black;
+     font-size: 1.5em;
+     color: orangered;
+}
+
+#calcKeys {
+     position: relative;
+     padding: 20px;
+
+}
+#calcKeys button {
+     margin: 8px;
+     height: 50px;
+     width: 50px;
+     border-radius: 50%;
+     border: 1px solid white;
+     background-color: white;
+     font-size: 2em;
+     font-weight: 700;
+}
+
+#calcKeys button:hover {
+     background-color: green;
+     border: 1px solid green;
+}
+
+.allClear:hover {
+     background-color: pink;
+     border: 1px solid pink;
+}
