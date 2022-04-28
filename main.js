@@ -14,7 +14,7 @@ function updateDisplay() {
    
    updateDisplay();
 
-keys.addEventListener('click', event => {
+document.addEventListener('click', event => {
      const { target } = event;
      const { value } = target;
      if (!target.matches('button')) {
